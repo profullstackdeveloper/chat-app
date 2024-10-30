@@ -18,7 +18,9 @@ export default function Footer() {
                 maxRows={4}
                 sx={{
                     flexShrink: 1,
-                    flexGrow: 1
+                    flexGrow: 1,
+                    backgroundColor: 'white',
+                    borderRadius: '8px'
                 }}
             />
         </div>
