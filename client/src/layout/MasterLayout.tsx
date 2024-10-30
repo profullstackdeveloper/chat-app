@@ -1,8 +1,9 @@
-import { ReactNode } from "react";
+import { ReactNode, useContext } from "react";
 import AppHeader from "../components/headers/AppHeader";
 import AppSidebar from "../components/sidebar/AppSidebar";
+import { AppContext } from "../context/AppContext";
 
-export default function MasterLayout({children}: {children: ReactNode}) {
+export default function MasterLayout({ children }: { children: ReactNode }) {
     return (
         <div className="w-full h-full flex flex-col overflow-hidden">
             <div className="flex-shrink-0 flex-grow-0">
